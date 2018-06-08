@@ -1009,13 +1009,13 @@
     }
     .step .yinliu .text_right {
         left: 25%;
-        top:1.1rem;
+        top:0.6rem;
         font-size:0.8rem;
         width:75%;
     }
     .step .yinliu .text_right p:last-child {
-        width: 87%;
-        font-size: 0.52rem;
+        width: 88%;
+        font-size: 0.6rem;
         line-height: 1rem;
         margin-right:1%;
 
