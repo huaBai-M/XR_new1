@@ -1,0 +1,137 @@
+/* CSS Document
+Theme Name:
+Theme URI:
+Description: A website for guide themes.
+Version: 2018.05.16
+Author: zhangmanyu
+ */
+
+
+
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 350px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+
+
+/*=======reset css========*/
+*,
+*::before,
+*::after{
+    /*所有的标签，和伪元素都选中*/
+    margin: 0;
+    padding: 0;
+    /*移动端常用布局是非固定像素*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*点击高亮效果的清除*/
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 19px;
+    font-family: "Microsoft YaHei",sans-serif;
+    color: #333;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:link{text-decoration:none;
+    color: #333;
+}  /* 指正常的未被访问过的链接*/
+
+a:visited{text-decoration:none;
+
+    color: #333;
+}/*指已经访问过的链接*/
+
+a:hover{text-decoration:none;
+    color: #333;
+}/*指鼠标在链接*/
+
+a:active{text-decoration:none;
+
+    color: #333;
+}/* 指正在点的链接*/
+img{
+    vertical-align: middle;
+}
+input,textarea{
+    border: none;
+    outline: none;
+    /*不允许改变尺寸*/
+    resize: none;
+    /*元素的外观  none没有任何样式*/
+    -webkit-appearance: none;
+}
+/*=======common css========*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.clearFix::before,
+.clearFix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.m_l10{
+    margin-left:10px;
+}
+.m_r10{
+    margin-right:10px;
+}
+.m_t10{
+    margin-top:10px;
+}
+.m_b10{
+    margin-bottom:10px;
+}
+/*使用精灵图的公用样式*/
+/*[class^="icon_"],[class*=" icon_"]{*/
+/*background-repeat: no-repeat;*/
+/*background-image: url("../images/sprites.png");*/
+/*background-size: 200px 200px;*/
+/*}*/
+
+.w {
+    width:1200px;
+    margin: 0 auto;
+    position: relative;
+}
+a:hover {
+    text-decoration: none;
+}

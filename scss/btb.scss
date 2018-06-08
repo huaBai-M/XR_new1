@@ -1,0 +1,44 @@
+@charset "utf-8";
+*{box-sizing: border-box;}
+.bTBanner{
+    padding-top:72px ;
+    padding-bottom: 160px;
+    height: 800px;
+    background: url(../img/btb/banner.jpg) no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .bTBanner_top{
+        padding: 24px 88px;
+        border: 1px solid rgba(255,255,255,0.5);
+        width: 650px;
+        height: 160px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-size: 50px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+        }
+    }
+    >ul{
+        width: 490px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        li{
+            float: left;
+            text-align: center;
+            p{
+                padding-top: 20px;
+            }
+        }
+    }
+}
