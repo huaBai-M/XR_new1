@@ -2013,6 +2013,9 @@
         width: 100%;
         height:100%;
     }
+    .point .solve_tile div {
+        padding: 0 5%;
+    }
     .point .point_list div {
         margin-right: 0;
         float: none;
