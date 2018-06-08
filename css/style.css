@@ -1072,10 +1072,11 @@
         width:75%;
     }
     .step .manyi .text_right p:last-child {
-        width: 97%;
+        width: 88%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.7rem;
+        margin-right:1%;
     }
     .step .manyi .line {
         top:14rem;
@@ -1110,6 +1111,7 @@
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.7rem;
+        margin-right:1%;
     }
     .step .line img{
         width:100%;
