@@ -1042,7 +1042,7 @@
         width:75%;
     }
     .step .zhaunhua .text_right p:last-child {
-        width: 97%;
+       width: 88%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.5rem;
@@ -1106,7 +1106,7 @@
         text-align: left;
     }
     .step .chengdan .text_right p:last-child {
-        width: 97%;
+       width: 88%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.7rem;
