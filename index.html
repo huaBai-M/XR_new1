@@ -123,7 +123,11 @@
 					<div class="item item2">
                         <canvas id="space" class="hidden-xs hidden-sm"></canvas>
                         <a href="#" class="hidden-lg hidden-md"> <img src="images/m_banner_02.png" alt=""></a>
-                        <a href="" class="hidden-xs hidden-sm"><img src="images/new_banner_01.png" alt=""></a>
+                        <div class="w">
+                            <a href="" class="hidden-xs hidden-sm"><img src="images/banner2_center_03.png" alt=""></a>
+                        </div>
+
+
 					</div>
                     <div class="item item3">
                         <img src="images/in_banner_zhi.png" alt="" class="one2 hidden-sm hidden-xs">
@@ -201,7 +205,7 @@
 
                     </div>
                     <!-- Indicators -->
-                    <ol class="carousel-indicators hidden-xs hidden-sm">
+                    <ol class="carousel-indicators hidden-sm hidden-xs">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
                             <span></span>
                         </li>
@@ -368,9 +372,9 @@
        <!--产品特点-->
         <div class="point">
             <div class="point_imgs">
-                <img src="images/tedian_1_02.jpg" alt="" class="img1">
-                <img src="images/tedian1_02.jpg" alt="" class="img2">
-                <img src="images/tedian_2_02.jpg" alt="" class="img3">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
             </div>
             <div class="container">
                 <div class="solve_tile">
@@ -418,22 +422,22 @@
                 </div>
                 <div class="goods_list" data-scroll-reveal="enter bottom and move 40px over 1.33s">
                     <div class="good1">
-                        <img src="icons/small1.png" alt="">
+                        <img src="icons/new_g_ic_08.png" alt="">
                         <p>高效实现多渠道引流获客</p>
                         <p>与高转化留存双重提升</p>
                     </div>
                     <div class="good2">
-                        <img src="icons/small2.png" alt="">
+                        <img src="icons/new_g_ic_10.png" alt="">
                         <p>用数据了解您的客户</p>
                         <p>数据驱动业务增长</p>
                     </div>
                     <div class="good3">
-                        <img src="icons/small3.png" alt="">
+                        <img src="icons/new_g_ic_03.png" alt="">
                         <p>求购商机实时推送</p>
                         <p>不错过每一个成交机会</p>
                     </div>
                     <div class="good4">
-                        <img src="icons/small4.png" alt="">
+                        <img src="icons/new_g_ic_05.png" alt="">
                         <p>“智能”颠覆数字营销</p>
                         <p>挖掘高价值商机及用户</p>
                     </div>
@@ -565,7 +569,7 @@
                             <b>+</b>
                             <i>分公司</i>
                         </li>
-                        <li style="margin: 0 90px;">
+                        <li >
                             <span id="xr_2">1000</span>
                             <b>+</b>
                             <i>企业家选择</i>
@@ -692,7 +696,7 @@
         <script>
 
             $(function () {
-//                window.scrollReveal = new scrollReveal({reset:true});
+//                window.scrollReveal = new scrollReveal();
 
                 var certifySwiper = new Swiper('#certify .swiper-container1', {
                     watchSlidesProgress: true,
