@@ -66,7 +66,7 @@
         font-size:56px;
         font-weight: 700;
         letter-spacing: 10px;
-        border-bottom: 1px solid rgba(250,250,250,.5);
+        border-bottom: 1px solid rgba(250,250,250,.4);
         width:500px;
         height:93px;
         margin-left: 350px;
@@ -96,7 +96,7 @@
         transition: transform 0.4s ease-out;
         -moz-transition: -moz-transform 0.4s ease-out;
     }
-    .item3 .icons div:hover .rotate1{
+    .item3 .icons .rotate1:hover {
         -webkit-transform: rotateZ(360deg);
         -moz-transform: rotateZ(360deg);
         -ms-transform: rotateZ(360deg);
@@ -147,7 +147,7 @@
         /*height:400px;*/
         position: absolute;
         left: 0;
-        z-index:10;
+        z-index:-1;
         bottom: 300px;
         -webkit-transform: translate(0,100px);
         -moz-transform: translate(0,100px);
@@ -178,7 +178,7 @@
         font-size:56px;
         font-weight: 700;
         letter-spacing: 15px;
-        border-bottom: 1px solid rgba(250,250,250,.5);
+        border-bottom: 1px solid rgba(250,250,250,.4);
         width:450px;
         height:93px;
         margin-left: 360px;
@@ -370,8 +370,8 @@
         color: #fff;
         font-size: 0.6rem;
         font-weight: 100;
-        width:82%;
-        margin-left: 9%;
+        width:80%;
+        margin-left: 10%;
         margin-top: 0.6rem;
     }
     .xr_banner .item2 {
@@ -680,9 +680,9 @@
 .xr_banner .item1 img{
     width: 100%;
 }
-.xr_banner .item2 img{
-    width: 100%;
-}
+/*.xr_banner .item2 img{*/
+    /*width: 100%;*/
+/*}*/
 .info {
     width:100%;
     position: relative;
@@ -979,7 +979,7 @@
         height:6rem;
     }
     .step {
-        height:20.8rem;
+        height:20rem;
         margin-top:0;
         padding-top: 0.3rem;
         background-color: #fff;
@@ -988,7 +988,7 @@
         width:100%;
         /*height:0.1rem;*/
         position: absolute;
-        top:5.5rem;
+        top:4.5rem;
         left:0;
 
     }
@@ -998,26 +998,26 @@
         margin-left: 0.5rem;
     }
     .step .yinliu img {
-        left:0.1rem;
-        top:1rem;
-        width:13%;
+        left:3%;
+        top:0.5rem;
+        width:12%;
     }
     .step .yinliu .text {
-        left: 10%;
-        top:3.7rem;
+        left: 9%;
+        top:2.5rem;
         font-size:0.9rem;
     }
     .step .yinliu .text_right {
-        left: 25%;
-        top:0.6rem;
+        left: 20%;
+        top:0.3rem;
         font-size:0.8rem;
         width:75%;
     }
     .step .yinliu .text_right p:last-child {
-        width: 88%;
+        width: 97%;
         font-size: 0.6rem;
         line-height: 1rem;
-        margin-right:1%;
+        margin-top: 0.5rem;
 
     }
     .step .zhaunhua {
@@ -1026,29 +1026,29 @@
         margin-top: 0.5rem;
     }
     .step .zhaunhua img {
-        left:0.1rem;
-        top:5.6rem;
-        width:19%;
+        left:4%;
+        top:4.8rem;
+        width:12%;
     }
     .step .zhaunhua .text {
         left: 4%;
-        top:8rem;
+        top:6.8rem;
         font-size:0.9rem;
     }
     .step .zhaunhua .text_right {
-        left: 25%;
-        top:5.5rem;
+        left: 20%;
+        top:4.6rem;
         font-size:0.8rem;
         width:75%;
     }
     .step .zhaunhua .text_right p:last-child {
-       width: 88%;
+        width: 97%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.5rem;
     }
     .step .zhaunhua .line {
-        top:9.5rem;
+        top:8.8rem;
     }
     .step .manyi {
         position: relative;
@@ -1056,30 +1056,29 @@
         margin-top: 0.5rem;
     }
     .step .manyi img {
-        left:1%;
-        top:9.6rem;
-        width:19%;
+        left:4%;
+        top:9.1rem;
+        width:12%;
     }
     .step .manyi .text {
         left: 10%;
-        top:12.4rem;
+        top:11.2rem;
         font-size:0.9rem;
     }
     .step .manyi .text_right {
-        left: 25%;
-        top:9.7rem;
+        left: 20%;
+        top:9.2rem;
         font-size:0.8rem;
         width:75%;
     }
     .step .manyi .text_right p:last-child {
-        width: 88%;
+        width: 97%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.7rem;
-        margin-right:1%;
     }
     .step .manyi .line {
-        top:14rem;
+        top:13rem;
     }
 
     .step .chengdan {
@@ -1088,18 +1087,18 @@
         margin-top: 0.5rem;
     }
     .step .chengdan img {
-        left:0.1rem;
-        top:14.1rem;
-        width:19%;
+        left:4%;
+        top:13.3rem;
+        width:12%;
     }
     .step .chengdan .text {
         left: 5%;
-        top:16.8rem;
+        top:15.3rem;
         font-size:0.9rem;
     }
     .step .chengdan .text_right {
-        left: 25%;
-        top:14rem;
+        left: 20%;
+        top:13.2rem;
         font-size:0.8rem;
         width:75%;
     }
@@ -1107,11 +1106,10 @@
         text-align: left;
     }
     .step .chengdan .text_right p:last-child {
-       width: 88%;
+        width: 97%;
         font-size: 0.6rem;
         line-height: 1rem;
         margin-top: 0.7rem;
-        margin-right:1%;
     }
     .step .line img{
         width:100%;
@@ -1255,8 +1253,9 @@
     width: 100%;
 
 }
-.point .point_imgs img{
+.point .point_imgs div{
     width: 100%;
+    height:100%;
     position: absolute;
     left:0;
     top:0;
@@ -1272,7 +1271,7 @@
     -o-transition: all 3.5s;
     transition: all 3.5s;
 }
-.point .point_imgs img:hover {
+.point .point_imgs div:hover {
     -webkit-transform: scale(3);
     -moz-transform: scale(3);
     -ms-transform: scale(3);
@@ -1280,13 +1279,22 @@
     transform: scale(3);
     opacity: 1;
 }
-.point .point_imgs img.img1 {
+.point .point_imgs div.img1 {
+    background: url("../images/tedian_02.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
     z-index: -1;
 }
-.point .point_imgs img.img2 {
+.point .point_imgs div.img2 {
+    background: url("../images/tedian1_02.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
     z-index: -2;
 }
-.point .point_imgs img.img3 {
+.point .point_imgs div.img3 {
+    background: url("../images/tedian_2_02.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
     z-index: -3;
 }
 .point .solve_tile {
@@ -1340,25 +1348,28 @@
     margin-left: 5px;
     vertical-align: middle;
 }
-.point .p1 {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: all 0.5s 0.5s;
-    -moz-transition: all 0.5s 0.5s;
-    -ms-transition: all 0.5s 0.5s;
-    -o-transition: all 0.5s 0.5s;
-    transition: all 0.5s 0.5s;
+@media (min-width: 768px){
+    .point .p1 {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-transition: all 0.5s 0.5s;
+        -moz-transition: all 0.5s 0.5s;
+        -ms-transition: all 0.5s 0.5s;
+        -o-transition: all 0.5s 0.5s;
+        transition: all 0.5s 0.5s;
+    }
+    .point  .p1:hover{
+        -webkit-transform: translateY(-40px);
+        -moz-transform: translateY(-40px);
+        -ms-transform: translateY(-40px);
+        -o-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
 }
-.point  .p1:hover{
-    -webkit-transform: translateY(-40px);
-    -moz-transform: translateY(-40px);
-    -ms-transform: translateY(-40px);
-    -o-transform: translateY(-40px);
-    transform: translateY(-40px);
-}
+
 .point .hide_tedian {
     display: none;
 }
@@ -1728,7 +1739,9 @@
     float: left;
     color: #fff;
 }
-
+.xr_mainbox4 .about_box .about_list li:nth-child(2){
+    margin: 0 90px;
+}
  .xr_mainbox4 .about_box .about_list li span {
     font-size: 80px;
     float: left;
@@ -2000,7 +2013,7 @@
         text-align: left;
     }
     .point {
-        height:32rem;
+        height:29rem;
         padding-top: 1.5rem;
         margin-top: 0;
     }
@@ -2033,7 +2046,7 @@
     }
     .point .point_list .points1 img {
         /*position: absolute;*/
-        width:22%;
+        width:15%;
         /*left:2%;*/
         /*top:0.6rem;*/
     }
@@ -2043,18 +2056,18 @@
         text-align: center;
         float: none;
         margin: 0;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.1rem;
         padding-top: 0;
     }
     .point .points2 img{
         /*position: absolute;*/
-        width:22%;
+        width:15%;
         /*left: 2%;*/
         /*top:0.8rem;*/
     }
     .point .points3 img{
         /*position: absolute;*/
-        width:22%;
+        width:15%;
         /*left: 2%;*/
         /*top:0.8rem;*/
     }
@@ -2122,13 +2135,13 @@
     .goods .goods_list div {
         margin-right: 0;
         width:50%;
-        height:6rem;
+        height:5rem;
         padding-left: 1%;
         margin-bottom: 1rem;
         text-align: center;
     }
     .goods .goods_list div img {
-        width:50%;
+        width:30%;
     }
     .goods .goods_list div p{
         position: inherit;
@@ -2147,7 +2160,7 @@
         margin-top: 0;
     }
     .goods .goods_list .good3 img {
-        width: 40%;
+        width: 28%;
         margin-left: 0.2rem;
     }
     .goods .goods_list .line1 {
@@ -2212,8 +2225,9 @@
     }
     .xr_mainbox4 .about_box .about_list li:nth-child(2){
         width:100%;
-        margin: 0;!important;
+        margin: 0 60px;!important;
         margin-top: 0.5rem;
+        /*margin-left: 20px;*/
 
     }
     .xr_mainbox4 .about_box .about_list li:last-child {
@@ -2238,7 +2252,7 @@
         line-height: 1.7rem;
         display: block;
         position: absolute;
-        top:2rem;
+        top:2.2rem;
     }
     .xr_mainbox4 .about_box .line {
         width:90%;
@@ -2400,6 +2414,7 @@
     .cases {
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
+        margin-top: 0;
     }
     /*.swiper-container img {*/
         /*width:;*/
@@ -2466,13 +2481,30 @@
 @media (min-width: 768px) {
     .xr_banner .item2{
         height:830px;!important;
+        text-align: center;
+        /*padding-top: 250px;*/
+    }
+    #space{
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 0;
     }
     .xr_banner .item2 a{
-        height:830px;!important;
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 0;*/
+        padding-left: 120px;
+        /*height:830px;!important;*/
     }
     .xr_banner .item2 img{
-        width: 100%;
-        height: 830px;
+        /*width: 100%;*/
+        /*margin-left: 25px;*/
+        margin-top: 225px;
+        /*position: absolute;*/
+        /*top:0;*/
+        /*z-index: 10;*/
+        /*height: 830px;*/
     }
 }
 .map  .wayboo_mapRight {
